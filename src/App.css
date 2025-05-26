@@ -1,0 +1,31 @@
+#root {
+  padding: 0 ;
+  text-align: center;
+}
+.fundo {
+  background-image: url('/fundo_home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 60vh;
+  width: 100%;
+}
+.fundo2 {
+  background-image: url('/fundo_contribuidor.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 80vh;
+  width: 100%;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+
+
