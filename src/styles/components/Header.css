@@ -1,19 +1,18 @@
 .header {
+  position: relative;             
   width: 100%;
-  background: url(./fundo_home.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(./fundo_home.png) no-repeat center/cover;
   padding: 1rem 0;
   display: flex;
+  justify-content: center;            
+  align-items: center;               
 }
 
-.header-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.logo {
+  position: absolute;                  
+  left: 2rem;                    
+  top: 50%;                        
+  transform: translateY(-50%);        
 }
 
 .logo img {
