@@ -1,7 +1,10 @@
 .header {
   position: relative;             
   width: 100%;
-  background: url(./fundo_home.png) no-repeat center/cover;
+  background: url(./fundo_home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 1rem 0;
   display: flex;
   justify-content: center;            
